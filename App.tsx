@@ -1,32 +1,15 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import { StyleSheet, Text, View } from 'react-native';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Home from './pages/Home';
 
 const App = () => {
-  return (
-    <View>
-      <Text>Hi</Text>
-    </View>
-  );
+  return <Home />;
 };
 
 const styles = StyleSheet.create({
-  
+ 
 });
 
 export default App;
