@@ -1,20 +1,16 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-
-function Footer() {
-  //using date object
-
+function Header() {
   return (
     <View>
-      <Text>Welcome to Dynamic Footer</Text>
+      <Text>Logo Image</Text>
+      <Image />
     </View>
   );
 }
-
 const styles = StyleSheet.create({
-  footer: {
-    
-  },
+  logo: {},
+  headerText: {},
 });
 
-export default Footer;
+export default Header;
