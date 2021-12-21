@@ -6,9 +6,11 @@ import Home from './pages/Home';
 import SearchButton from './Components/SearchButton';
 import Button from './Components/Button';
 import Hamburger from './Components/Hamburger';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
 
 const App = () => {
-  return <Hamburger />;
+  return <Header />;
 };
 
 const styles = StyleSheet.create({});
